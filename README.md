@@ -1,7 +1,7 @@
 
-# Library App Management System UI
+# Library App Management System
 
-This is the UI of Library App Management System
+This is simple web application for library app management system build with Python Fastapi and ReactJs.
 
 
 ## Run Locally
@@ -17,6 +17,32 @@ Go to the project directory
 ```bash
   cd libraryapp-fastapi-react
 ```
+
+### Run API
+
+Go to the project api directory
+
+```bash
+  cd library-api
+```
+
+Install api depedencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Create api env file
+```bash
+  cp .env.example
+```
+
+Run api
+```bash
+  python src/main.py
+```
+
+### Run UI
 
 Go to the project ui directory
 
