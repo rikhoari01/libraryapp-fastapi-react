@@ -32,7 +32,7 @@ Install api depedencies
 
 Create api env file
 ```bash
-  cp .env.example
+  cp .env.example .env
 ```
 
 Run api
